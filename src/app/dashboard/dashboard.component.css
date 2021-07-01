@@ -1,0 +1,9 @@
+.sessao-dashboard{
+    display: flex;
+}
+
+.card-dashboard{
+    max-width: 200px;
+    margin: 15px;
+    text-align: center;
+}

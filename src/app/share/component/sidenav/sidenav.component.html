@@ -1,0 +1,25 @@
+<mat-sidenav-container class="side-container">
+    <mat-sidenav mode="side" opened class="menu-sidenav">
+        <mat-nav-list>
+            <a mat-list-item href="/cadastro">
+                <span class="material-icons">liquor</span>
+                Cadastro de Produto
+            </a>
+            <a mat-list-item href="#">
+                <span class="material-icons">person_add_alt</span>
+                Cadastro de Cliente
+            </a>
+            <a mat-list-item href="#">
+                <span class="material-icons">domain</span>
+                Cadastro de Fornecedor
+            </a>
+            <a mat-list-item href="#">
+                <span class="material-icons">badge</span>    
+                Cadastro de Funcionario
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

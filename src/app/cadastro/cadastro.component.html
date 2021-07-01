@@ -1,0 +1,81 @@
+<section class="cadastro">
+    <h1>Cadastro de Produtos</h1>
+    <p>Insira abaixo as informações do produto.</p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Código do produto</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Código de Barras</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline">
+            <mat-label>Descrição do produto</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Marca</mat-label>
+            <input matInput>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Fabricante</mat-label>
+            <input matInput placeholder="">
+        </mat-form-field>
+    </p>
+    <p> 
+        <mat-form-field class="unidade" appearance="outline">
+            <mat-label>Unidade</mat-label>
+            <mat-select>
+                <mat-option value="one">un</mat-option>
+                <mat-option value="two">cm</mat-option>
+                <mat-option value="three">pç</mat-option>
+                <mat-option value="four">cx</mat-option>
+                <mat-option value="five">mm</mat-option>
+                <mat-option value="six">Litros</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field class="quantidade" appearance="outline">
+            <mat-label>Quantidade</mat-label>
+            <input matInput type="number" placeholder="">
+        </mat-form-field>
+        <mat-form-field class="quantidade" appearance="outline">
+            <mat-label>Qt Mínima</mat-label>
+            <input matInput type="number" placeholder="">
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field appearance="outline" floatLabel="always">
+            <mat-label>Preço de Custo</mat-label>
+            <input matInput type="number">
+            <span matPrefix>R$&nbsp;</span>
+        </mat-form-field>
+        <mat-form-field appearance="outline" floatLabel="always">
+            <mat-label>Margem de Lucro</mat-label>
+            <input matInput type="number">
+            <span matPrefix>%&nbsp;</span>
+        </mat-form-field>
+        <mat-form-field appearance="outline" floatLabel="always">
+            <mat-label>Preço de Venda</mat-label>
+            <input matInput type="number">
+            <span matPrefix>R$&nbsp;</span>
+        </mat-form-field>
+    </p>
+    <p>
+        <mat-form-field class="observacao" appearance="outline">
+            <mat-label>Observações</mat-label>
+            <textarea matInput placeholder="Adicione aqui informações adicionais sobre o produto..."></textarea>
+          </mat-form-field>
+    </p>
+
+    <div>
+        <button mat-raised-button color="primary">Salvar</button>
+        <button mat-raised-button color="basic">Cancelar</button>
+    </div>
+
+</section>
+
+
+
